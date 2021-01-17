@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash sale</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="title">
+                FLASH SALE STORE
+
+            </h1>
+            <p id="description">
+                Quality pririty for us.
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">First Name </label>
+                <input type="text" name="name" id="name" class="formcontrol" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label id="lname-label" for="lname">Last Name </label>
+                <input type="text" name="lname" id="lname" class="formcontrol" placeholder="Enter your last name" required>
+            </div>
+            <div class="form-group">
+                <label id="phone-label" for="name">Phone </label>
+                <input type="text" name="phone" id="phone" class="formcontrol" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email </label>
+                <input type="email" name="email" id="email" class="formcontrol" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="age">Age </label>
+                <input type="number" name="age" id="number" class="formcontrol" placeholder="Age" required max="70" min="18">
+            </div>
+            <div id="form-group">
+                <p>Where do you live</p>
+                <select id="dropdown" class="formcontrol">
+                    <option disabled selected value>Select youre province</option>
+                    <option value="kabul">Kabul</option>
+                    <option value="hirat">Hirat</option>
+                    <option value="mazar">Mazar</option>
+                    <option value="bamyan">Bamyan</option>
+                    <option value="wardak">Wardak</option>
+                    <option value="badakhshan">Badakhshan</option>
+                    <option value="ghazni">Ghazni</option>
+                </select>
+
+            </div>
+            <div>
+                <p>Select youre Gender</p>
+                <label>
+                    <input type="radio" name="user-gender" class="input radio" checked>
+                    Male
+                </label>
+                <label>
+                    <input type="radio" name="user-gender" class="input radio">
+                   Female
+                </label>
+                <label>
+                    <input type="radio" name="user-gender" class="input radio">
+                    Other
+                </label>
+            </div>
+
+
+        </form>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
