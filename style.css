@@ -122,4 +122,9 @@ body::before {
   margin-top: 20px;
   border: 1px solid rgba(30, 190, 137, 0.7);
   border-radius: 5px;
+  background-color: rgba(30, 190, 137, 0.7);
 }
+#description{
+  font-family: 'Sofia';
+}
+
