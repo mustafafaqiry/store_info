@@ -118,3 +118,8 @@ body::before {
   background-repeat: no-repeat;
   background-position: center;
 }
+#div-line {
+  margin-top: 20px;
+  border: 1px solid rgba(30, 190, 137, 0.7);
+  border-radius: 5px;
+}
