@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash sale</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                FLASH SALE STORE
+            </h1>
+            <p id="description">
+                Quality is our priority
+            </p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">First Name </label>
+                <input type="text" name="name" id="name" class="formcontrol" placeholder="Enter your name" required>
+                <hr class="div-line">
+            
+            </div>
+            <div class="form-group">
+                <label id="lname-label" for="lname">Last Name </label>
+                <input type="text" name="lname" id="lname" class="formcontrol" placeholder="Enter your last name" required>
+                <hr class="div-line">
+            </div>
+            <div class="form-group">
+                <label id="phone-label" for="phone" >Phone </label>
+                <input pattern="" type="tel" name="phone" id="phone" class="formcontrol" placeholder="Enter your phone number" required>
+             <hr class="div-line">
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email </label>
+                <input type="email" name="email" id="email" class="formcontrol" placeholder="Enter your email" required>
+                <hr class="div-line">
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age </label>
+                <input type="number" name="age" id="number" class="formcontrol" placeholder="Age" required max="70" min="18">
+                <hr class="div-line">
+            </div>
+            <div id="form-group">
+                <p>Where do you live</p>
+                <select id="dropdown" class="formcontrol">
+                    <option disabled selected value>Select youre province</option>
+                    <option value="kabul">Kabul</option>
+                    <option value="hirat">Hirat</option>
+                    <option value="mazar">Mazar</option>
+                    <option value="bamyan">Bamyan</option>
+                    <option value="wardak">Wardak</option>
+                    <option value="badakhshan">Badakhshan</option>
+                    <option value="ghazni">Ghazni</option>
+                </select>
+                <hr class="div-line">
+
+            </div>
+            <div>
+                <p>Select youre Gender</p>
+                <label>
+                    <input value="male" type="radio" name="user-gender" class="inputradio" checked>
+                    Male
+                </label>
+                <label>
+                    <input value="female" type="radio" name="user-gender" class="inputradio">
+                   Female
+                </label>
+                <label>
+                    <input value="other" type="radio" name="user-gender" class="inputradio">
+                    Other
+                </label>
+            </div>
+            <hr class="div-line">
+            <div>
+                <p>How did you become aware of our services</p>
+                <label>
+                    <input class="input-checkbox" type="checkbox" name="awareness" value="social-media" >
+                    Social Media
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" name="awareness" value="Tv">
+                    Tv announcements
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" name="awareness" value="billboard" >
+                    Billboard
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" name="awareness" value="friends" >
+                    Friends
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" name="awareness" value="other" >
+                    Other
+                </label>
+            </div>
+            <hr class="div-line">
+            <div>
+                <p>Additional Remarks Optional</p>
+                <textarea class="input-textarea" name="comment" id="comments" placeholder="write your comment here"></textarea>
+            </div>
+            <div>
+                <button type="submit" id="submit" class="submit-button">Submit</button>
+               
+            </div>
+
+
+        </form>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+</body>
+</html>
